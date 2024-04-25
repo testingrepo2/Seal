@@ -6,16 +6,16 @@ pluginManagement {
     }
 }
 plugins {
-    id("org.gradle.toolchains.foojay-resolver-convention") version("0.4.0")
+    id("org.gradle.toolchains.foojay-resolver-convention") version ("0.4.0")
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        maven ("https://jitpack.io")
+        maven("https://jitpack.io")
     }
 }
 rootProject.name = "Seal"
-include (":app")
+include(":app")
 include(":color")
